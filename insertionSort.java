@@ -21,7 +21,7 @@ class InsertionSort {
                     System.out.println(arr[i]);
                     if(sortedArray.get(j) < arr[i] == false){
 //                        System.out.println(arr[i]);
-                        sortedArray.add(j, arr[i]);
+                        sortedArray.add(arr[i]);
                         break;
                     }
 
